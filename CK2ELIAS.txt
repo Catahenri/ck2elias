@@ -1,0 +1,14 @@
+Checkpoint 2
+
+Integrantes: rm87553 Catarina Henriques de Gouveia Camussi; rm87894 João Pedro Otoni de Araujo
+
+EXERCÍCIO 2
+
+-- Quais são as responsabilidades do Controller e o tipo de retorno de uma Action?
+R: O controller recebe as requisições do usuário e  o model e/ou view. As responsabilidades básicas dele são:Recuperar dados enviados pelo usuário; Interagir com a camada model; Acionar a camada de apresentação para enviar a resposta ao usuário;
+
+-- Qual o tipo de retorno de uma Action?
+R: Durante a criação de um Controller o usuário interage com a página do sistema para enviar uma requisição para um método da classe controller, este executa um processamento e depois deve retornar um objeto do tipo IActionResult indicando o que deve ser executado depois da ação. Esse método Action, retorna uma View para criar um objeto do tipo ViewResult, dessa forma o ASP.NET Core MVC deve retornar uma view para o usuário.
+
+
+
